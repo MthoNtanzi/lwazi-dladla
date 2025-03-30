@@ -18,24 +18,24 @@
 </template>
 
 <script>
-import portfolioImg from '@/assets/portfolio_img.jpg';
-import Expertise from '@/components/Expertise.vue';
-import About from '@/components/About.vue';
-import Projects from '@/components/Projects.vue';
+  import portfolioImg from '@/assets/portfolio_img.jpg';
+  import Expertise from '@/components/Expertise.vue';
+  import About from '@/components/About.vue';
+  import Projects from '@/components/Projects.vue';
 
-export default {
-  name: 'HomePage',
-  components: {
-    Expertise,
-    About,
-    Projects,
-  },
-  data() {
-    return {
-      portfolioImg,
-    };
-  },
-};
+  export default {
+    name: 'HomePage',
+    components: {
+      Expertise,
+      About,
+      Projects,
+    },
+    data() {
+      return {
+        portfolioImg,
+      };
+    },
+  };
 </script>
 
 <style scoped>

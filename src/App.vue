@@ -20,14 +20,12 @@ export default {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    background-color: #1f2020;
+    color: #fff;
   }
 
   html{
     scroll-behavior: smooth;
   }
 
-  body{
-    background-color: #1f2020;
-    color: #fff;
-  }
 </style>
