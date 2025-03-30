@@ -1,9 +1,9 @@
 <template>
   <nav class="flex gap-6 p-4 bg-gray-100 shadow-md">
-    <router-link to="/" class="hover:underline">Home</router-link>
-    <router-link to="/about" class="hover:underline">About</router-link>
-    <router-link to="/expertise" class="hover:underline">Expertise</router-link>
-    <router-link to="/projects" class="hover:underline">Projects</router-link>
+    <a href="#home-section" class="hover:underline">Home</a>
+    <a href="#about-section" class="hover:underline">About</a>
+    <a href="#expertise-section" class="hover:underline">Expertise</a>
+    <a href="#projects-section" class="hover:underline">Projects</a>
   </nav>
 </template>
 
@@ -14,3 +14,9 @@ export default {
     name: 'NavbarItem'
   }
 </script>
+
+<style>
+  nav{
+    background-color: #2d2d2d;
+  }
+</style>
