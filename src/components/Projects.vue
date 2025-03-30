@@ -25,9 +25,11 @@ export default {
   .projectsPage{
     display: flex;
     flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: flex-start;
     justify-content: space-between;
     align-items: flex-start;
-    padding: 10rem 8rem;
+    padding: 5rem 2rem;
     min-height: 80vh;
     gap: 10px;
   }
@@ -36,10 +38,12 @@ export default {
     display: flex;
     flex-direction: column;
     align-items: center;
+    max-width: 310px;
+    margin-bottom: 20px;
   }
 
   .vid_desc_box p{
-    width: 80%;
+    width: 90%;
     font-weight: 800;
     text-align: center;
     font-size: 30px;
@@ -47,6 +51,7 @@ export default {
 
   iframe {
     aspect-ratio: 16 / 9;
+    width: 100%;
   }
 
 
