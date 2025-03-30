@@ -83,13 +83,13 @@ export default {
     }
 
     .skills_box {
-      flex-direction: column; /* Stack icons vertically */
-      align-items: center; /* Center icons horizontally */
-      justify-content: flex-start; /* Align items at the top */
+      flex-direction: column;
+      align-items: center;
+      justify-content: flex-start;
     }
 
     .skills_box .icon_desc_box {
-      margin-bottom: 2rem; /* Add spacing between icons */
+      margin-bottom: 2rem;
     }
   }
 </style>
