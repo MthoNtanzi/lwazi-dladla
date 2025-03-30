@@ -1,27 +1,34 @@
 <template>
-
-  <div class="row">
-    <div class="image-column">
-      <img :src="portfolioImg" alt="Nolwazi Dladla" class="responsive-img">
-    </div>
-    <div class="text-column">
-      <h1>Nolwazi <br>Dladla</h1>
-      <p>Executive Assistant</p>
+  <div id="home-section">
+    <div class="row">
+      <div class="image-column">
+        <img :src="portfolioImg" alt="Nolwazi Dladla" class="responsive-img">
+      </div>
+      <div class="text-column">
+        <h1>Nolwazi <br>Dladla</h1>
+        <p>Executive Assistant</p>
+      </div>
     </div>
   </div>
 
-  <Expertise />
 
+  <About id="about-section" />
+  <Expertise id="expertise-section" />
+  <Projects id="projects-section" />
 </template>
 
 <script>
 import portfolioImg from '@/assets/portfolio_img.jpg';
 import Expertise from '@/components/Expertise.vue';
+import About from '@/components/About.vue';
+import Projects from '@/components/Projects.vue';
 
 export default {
   name: 'HomePage',
   components: {
-    Expertise
+    Expertise,
+    About,
+    Projects,
   },
   data() {
     return {
@@ -32,21 +39,9 @@ export default {
 </script>
 
 <style scoped>
-*{
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-}
-
-html{
-  scroll-behavior: smooth;
-}
-
 .row {
   display: flex;
   flex-wrap: wrap; /* Allow columns to wrap on smaller screens */
-  background-color: #1f2020;
-  color: #fff;
   margin: 0;
 }
 
@@ -88,11 +83,12 @@ html{
     flex: 1; /* Take full width on smaller screens */
     padding-right: 0; /* Remove padding */
     h1{
+      padding: 1rem 0.5rem;
       font-size: 3rem;
       font-weight: 500;
     }
     p{
-      padding: 0.5rem 0;
+      padding: 0.5rem;
       font-size: 1rem;
     }
   }
