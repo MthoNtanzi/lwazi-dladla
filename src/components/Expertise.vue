@@ -1,6 +1,6 @@
 <template>
   <div class="expertisePage">
-    <h1>Technical Skills</h1>
+    <!-- <h1>Technical Skills</h1> -->
     <div class="skills_box">
       <div class="icon_desc_box">
         <img :src="bufferLogo" alt="Buffer Logo">
@@ -53,8 +53,7 @@ export default {
     flex-direction: column;
     justify-content: center;
     align-items: flex-start;
-    padding: 10rem 8rem;
-    min-height: 80vh;
+    padding: 4rem 8rem;
   }
 
   .skills_box{
@@ -62,7 +61,6 @@ export default {
     justify-content: space-between;
     align-items: center;
     width: 100%;
-    padding-top: 4rem;
   }
 
   .skills_box img{
@@ -79,7 +77,7 @@ export default {
 
   @media (max-width: 768px) {
     .expertisePage{
-      padding: 5rem 2rem;
+      padding: 2rem 2rem;
     }
 
     .skills_box {

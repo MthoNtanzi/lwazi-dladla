@@ -1,7 +1,7 @@
 <template>
   <div class="aboutPage">
     <!-- <h1>About Me</h1> -->
-    <h2>Personal Statement</h2>
+    <!-- <h2>Personal Statement</h2> -->
     <div>
       <p>
         I have a background in administrative support and logistics, with a focus on organisation and efficiency. I am eager to apply my skills in an executive assistant role, contributing to smooth operations and enhancing productivity in a dynamic environment.
@@ -26,13 +26,12 @@ export default {
     justify-content: center;
     align-items: flex-start;
     padding: 10rem 8rem;
-    min-height: 100vh;
     gap: 2rem;
   }
 
   @media (max-width: 768px) {
     .aboutPage{
-      padding: 5rem 2rem;
+      padding: 2rem 2rem;
     }
   }
 </style>

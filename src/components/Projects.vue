@@ -30,7 +30,6 @@ export default {
     justify-content: space-between;
     align-items: flex-start;
     padding: 5rem 2rem;
-    min-height: 80vh;
     gap: 10px;
   }
 
@@ -59,7 +58,7 @@ export default {
     .projectsPage{
       padding: 5rem 2rem;
       flex-direction: column;
-      padding: 5rem 2rem;
+      padding: 2rem 2rem;
       align-items: center;
       gap: 2rem;
     }
